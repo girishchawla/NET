@@ -1,0 +1,196 @@
+﻿@import "_variables.scss";
+
+#panel-clients {
+    .panel-heading {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .fa-dot-circle-o {
+        margin-top: 4px;
+        font-size: 1.3em !important;
+        color: green;
+        float: right;
+
+        &:hover {
+            color: $myGreen;
+        }
+    }
+
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 84px;
+    height: 300px;
+    width: 280px;
+
+    .panel.panel-default {
+        position: relative;
+        margin-right: 0px;
+        max-height: 600px;
+    }
+
+    .panel-body {
+        overflow-y: auto;
+        position: relative;
+        height: 91%;
+        width: 280px;
+        padding: 0;
+
+        a {
+            color: $myBrown;
+
+            &:hover {
+                color: #999999;
+            }
+        }
+
+        .fa {
+            padding-left: 13px;
+            padding-top: 13px;
+            font-size: 1.4em;
+        }
+
+        .well-sm {
+            margin: 10px;
+            background: #eeeeee;
+
+            p {
+                font-size: 1.2em;
+                font-weight: bold;
+
+                i {
+                    font-size: 2em;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .panel-footer {
+        width: 278px;
+        position: absolute;
+        bottom: 0px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+}
+
+#slide-wrapper {
+    display: none;
+    height: 600px;
+    display: inline;
+}
+
+.panel-success {
+    border: 1px solid $myGreen;
+}
+
+
+#chatRoomBtn {
+
+    &:focus {
+        outline: none;
+    }
+}
+
+footer {
+    display: none;
+}
+
+.chat-panel {
+    border: solid 1px $myGreen;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+    width: 280px;
+
+    .panel-body {
+        min-height: 500px;
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .panel-heading {
+        background-color: $my2Green;
+        color: white;
+
+        .panel-title {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .closeChat {
+            float: right;
+            color: $myBrown;
+            margin-top: 2px;
+            margin-right: 5px;
+
+            &:hover {
+                color: $myRed;
+            }
+        }
+    }
+
+    .form-inline {
+        margin-bottom: -32px;
+    }
+
+    .form-group {
+        .input-group-addon {
+            text-align: right;
+            position: relative;
+            right: -9px;
+            top: -30px;
+
+            .fa-paper-plane-o {
+                color: $myBrown;
+                font-size: 2.0em;
+
+                &:hover {
+                    color: $myLightBrown;
+                }
+            }
+        }
+
+        textarea {
+            min-width: 200px;
+            max-width: 200px;
+            max-height: 135px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.boardMessages {
+    margin-left: 10px;
+    margin-right: 10px;
+    .left {
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: .9em;
+
+            i {
+                font-size: 1.7em;
+                margin-left: 6px;
+                margin-right: 9px;
+            }
+        }
+
+        div {
+            padding-top: 10px;
+            padding-left: 20px;
+            font-size: 1.1em;
+        }
+    }
+
+    .well {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+

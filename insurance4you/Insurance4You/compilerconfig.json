@@ -1,0 +1,72 @@
+﻿[
+  {
+    "outputFile": "Content/PaymentFeedback.css",
+    "inputFile": "Content/PaymentFeedback.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Content/Site.css",
+    "inputFile": "Content/Site.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Content/Chat.css",
+    "inputFile": "Content/Chat.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Content/AssignRoles.css",
+    "inputFile": "Content/AssignRoles.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Content/LogIn.css",
+    "inputFile": "Content/LogIn.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Content/Mypage.css",
+    "inputFile": "Content/Mypage.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Content/GetQuote.css",
+    "inputFile": "Content/GetQuote.scss",
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFile": "Content/SetQuote.css",
+    "inputFile": "Content/SetQuote.scss",
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFile": "Content/SetPayment.css",
+    "inputFile": "Content/SetPayment.scss",
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFile": "Content/AssignRoles.css",
+    "inputFile": "Content/AssignRoles.scss"
+  }
+]

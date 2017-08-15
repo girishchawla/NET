@@ -1,0 +1,275 @@
+﻿@import '_variables.scss';
+
+.steps {
+    font-size: 2em;
+    margin-top: 17px;
+    margin-left: 35px;
+}
+
+.progr {
+    width: 100%;
+    height: 80px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 70px;
+    .row {
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .line {
+        height: 2px;
+        position: relative;
+        //border-bottom: 1px solid #BBBBBB;
+        background: rgba(245,245,245,1);
+        background: -moz-linear-gradient(left, rgba(245,245,245,1) 0%, rgba(187,187,187,1) 30%, rgba(187,187,187,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,245,245,1)), color-stop(30%, rgba(187,187,187,1)), color-stop(100%, rgba(187,187,187,1)));
+        background: -webkit-linear-gradient(left, rgba(245,245,245,1) 0%, rgba(187,187,187,1) 30%, rgba(187,187,187,1) 100%);
+        background: -o-linear-gradient(left, rgba(245,245,245,1) 0%, rgba(187,187,187,1) 30%, rgba(187,187,187,1) 100%);
+        background: -ms-linear-gradient(left, rgba(245,245,245,1) 0%, rgba(187,187,187,1) 30%, rgba(187,187,187,1) 100%);
+        background: linear-gradient(to right, rgba(245,245,245,1) 0%, rgba(187,187,187,1) 30%, rgba(187,187,187,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#bbbbbb', GradientType=1 );
+        width: 60%;
+        margin-top: 50px;
+       
+
+
+
+        .icons-wrapper {
+            padding-left: 150px;
+
+            @media screen and (max-width: 768px) {
+                padding-left: 50px;
+            }
+
+            p {
+                display: inline-block;
+                position: relative;
+                top: 0px;
+                float: left;
+
+                .fa-user {
+                    position: relative;
+                    top: -25px;
+                    color: #AAAAAA;
+                }
+
+                .fa-thumbs-up {
+                    position: relative;
+                    top: -24px;
+                    color: $mylightGray;
+                }
+
+                .fa-eur {
+                    position: relative;
+                    top: -20px;
+                    color: #CCCCCC;
+                }
+            }
+        }
+    }
+}
+
+.fa-plus {
+    color: $myGreen;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.fa-minus {
+    color: $myRed;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+%settingsLink {
+    position: relative;
+    top: 25px;
+    color: $myBrown;
+    margin-left: 10px;
+}
+
+.alert-success {
+    background-color: rgb(149, 211, 124);
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+.alert-danger {
+    background: $myRed;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+#collapseOne {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    #MainContent_InputDOBDay {
+        margin-left: -15px;
+    }
+
+    #MainContent_InputDOBMonth {
+        margin-left: -34px;
+    }
+
+    #MainContent_InputDOBYear {
+        margin-left: -54px;
+    }
+
+    #MainContent_Button1 {
+        margin-top: 60px;
+    }
+}
+
+#collapseTwo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    #MainContent_InputDOMDay {
+        margin-left: -15px;
+    }
+
+    #MainContent_InputDOMMonth {
+        margin-left: -34px;
+    }
+
+    #MainContent_InputDOMYear {
+        margin-left: -54px;
+    }
+
+    #MainContent_Button2 {
+        margin-top: 60px;
+    }
+}
+
+#collapseThree {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    #MainContent_InputClaimDateDay {
+        margin-left: -15px;
+    }
+
+    #MainContent_InputClaimDateMonth {
+        margin-left: -34px;
+    }
+
+    #MainContent_InputClaimDateYear {
+        margin-left: -54px;
+    }
+
+    #MainContent_InputConvictionDateDay {
+        margin-left: -15px;
+    }
+
+    #MainContent_InputConvictionDateMonth {
+        margin-left: -34px;
+    }
+
+    #MainContent_InputConvictionDateYear {
+        margin-left: -54px;
+    }
+
+
+
+
+    #MainContent_LinkButtonAddConvictions {
+        @extend %settingsLink;
+        margin-left: 20px;
+    }
+
+    #MainContent_LinkButtonRemoveConvictions {
+        @extend %settingsLink;
+    }
+
+    #MainContent_LinkButtonAddClaims {
+        @extend %settingsLink;
+        margin-left: 20px;
+    }
+
+    #MainContent_LinkButtonRemoveClaims {
+        @extend %settingsLink;
+    }
+
+    #MainContent_Button3 {
+        margin-top: 60px;
+    }
+
+    #Claims {
+        font-size: 1.8em;
+        margin-top: 20px;
+    }
+
+    #Convictions {
+        font-size: 1.8em;
+        margin-top: 20px;
+    }
+}
+
+
+#collapseFour {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    #MainContent_InputAdditionalDriverDOBDay {
+        margin-left: -15px;
+    }
+
+    #MainContent_InputAdditionalDriverDOBMonth {
+        margin-left: -34px;
+    }
+
+    #MainContent_InputAdditionalDriverDOBYear {
+        margin-left: -54px;
+    }
+
+    #MainContent_Button4 {
+        margin-top: 60px;
+    }
+}
+
+#MainContent_LinkButtonAddDriver {
+    @extend %settingsLink;
+}
+
+#MainContent_LinkButtonRemoveDriver {
+    @extend %settingsLink;
+}
+
+
+#collapseFive {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    #MainContent_Button5 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+   #MainContent_CheckBoxAcceptTerms {
+        margin-bottom: -12px;
+    } 
+}
+
+.panel-title {
+    font-size: 20px;
+}
+
+.container#quotation {
+    margin-top: 70px;
+}
+
+label {
+    font-size: 1.1em;
+}
+

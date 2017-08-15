@@ -1,0 +1,243 @@
+﻿@import '_variables.scss';
+
+.main {
+    margin-top: 80px;
+    min-height: 700px;
+}
+
+.panel-body {
+    min-height: 500px;
+}
+
+.details {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.buttons {
+    margin-bottom: 30px;
+}
+
+.TdDet {
+    color: $myDarkerGray;
+    font-size: 1.5em;
+    position: relative;
+    top: 6px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+    box-shadow: inset 0 -2px 0 green;
+    color: green;
+
+    &:hover {
+        color: green;
+    }
+
+    &:active {
+        color: green;
+    }
+}
+
+#MainContent_GridView1 {
+    th {
+        font-size: 2em;
+    }
+
+    td, th {
+        border: none;
+        padding: 20px;
+    }
+}
+
+a {
+    color: $myDarkerGray;
+}
+
+table {
+    border: none;
+}
+
+.panel-body .message {
+    min-height: 30px;
+}
+
+.upload {
+    margin-top: 20px;
+
+    #MainContent_Button1 {
+        margin-top: 20px;
+    }
+}
+
+.fa-file-text:before {
+    font-size: 2.3em;
+    padding-right: 10px;
+    color: green;
+}
+
+#chatRoomBtn {
+
+    &:focus {
+        outline: none;
+    }
+}
+
+footer {
+    display: none;
+}
+
+.chat-panel-main {
+    box-shadow: none;
+    margin-top: 25px;
+}
+
+
+.chat-panel {
+    margin: 0 auto;
+    width: 280px;
+    position: relative;
+    top: -100px;
+
+    .panel-body {
+        min-height: 460px;
+        max-height: 460px;
+        overflow-y: auto;
+    }
+
+    .panel-heading {
+
+        .panel-title {
+            font-size: 1.3em;
+            //padding-left: 20px;
+            //margin-left:90px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        #closeChat {
+            float: right;
+            color: $myBrown;
+            margin-top: 2px;
+            margin-right: 5px;
+
+            &:hover {
+                color: $myRed;
+            }
+        }
+    }
+
+    .form-inline {
+        margin-bottom: -32px;
+    }
+
+    .form-group {
+        .input-group-addon {
+            text-align: right;
+            position: relative;
+            right: -15px;
+            top: -30px;
+
+            .fa-paper-plane-o {
+                color: $myBrown;
+                font-size: 2em;
+
+                &:hover {
+                    color: $myLightBrown;
+                }
+            }
+        }
+
+        textarea {
+            min-width: 200px;
+            max-width: 200px;
+            max-height: 135px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+#boardMessages {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .left {
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: .9em;
+
+            i {
+                font-size: 1.7em;
+                margin-left: 6px;
+                margin-right: 9px;
+            }
+        }
+
+        div {
+            padding-top: 10px;
+            padding-left: 20px;
+            font-size: 1.1em;
+        }
+    }
+
+    .well {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+#slide-wrapper {
+    display: none;
+}
+
+.popover > .arrow {
+    visibility: hidden;
+}
+
+.popover {
+    font-size: 15px;
+}
+
+.fa-dot-circle-o {
+    margin-top: 5px;
+    font-size: 1.6em !important;
+    color: green;
+
+    &:hover {
+        color: $myGreen;
+        font-size: 1.7em !important;
+    }
+}
+
+.panel-success {
+    border: 1px solid $myGreen;
+}
+
+.success {
+    background: $my2Green !important;
+    color: white !important;
+}
+
+#input {
+    display: none;
+}
+
+#waiting {
+    position: relative;
+    display: inline;
+    font-size: 1.1em;
+    text-align: center;
+    top: 150px;
+    left: -5px;
+
+    .fa-users {
+        font-size: 1.5em;
+        margin-right: 10px;
+    }
+}
+.opening-hours{
+    padding-left: 100px;
+}
